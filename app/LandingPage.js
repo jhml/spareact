@@ -51,12 +51,12 @@ const headCells = [
     label: "Country"
    },
   {
-    id: "new-confirmed",
+    id: "todayCases",
     label: "New confirmed"
   },
   { 
-    id: "active", 
-    label: "Active cases" 
+    id: "cases", 
+    label: "Total cases" 
   },
   {
     id: "recovered",
@@ -87,7 +87,7 @@ const EnhancedTableHead = (props) => {
           <TableCell
             key={headCell.id}
             align={"left"}
-            padding={"4"}
+            padding={"default"}
             sortDirection={orderBy === headCell.id ? order : false}
           >
             <TableSortLabel
@@ -229,7 +229,6 @@ const EnhancedTable = (props) => {
                     <TableRow
                       hover
                       onClick={(e) => handleClick(e, row.country)}
-                      role="checkbox"
                       className={classes.tableRow}
                       tabIndex={-1}
                       key={row.country}
@@ -239,7 +238,7 @@ const EnhancedTable = (props) => {
                         id={index}
                         align={"left"}
                         scope={"row"}
-                        padding={"4"}
+                        padding={"default"}
                       >
                         {row.country}
                       </TableCell>

@@ -34,7 +34,7 @@ const useStyles = makeStyles({
     backBtn: {
         cursor: 'pointer',
         marginRight: '1rem',
-        marginLeft: '-4rem'
+        marginLeft: '-2rem'
     },
     topHeading: {
         color: '#00AAA0'
