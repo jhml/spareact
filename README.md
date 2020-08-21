@@ -2,13 +2,14 @@
 v1 - This is a sample application for demo purpose. 
 
 <b>Features covered in this implementation:<b>
-
-Code splitting using react lazy/async await for api
-Brotli/gzip compression
-Usage of react router
-Usage of material ui
-Sorting
-Use of Grid/Flex
-Custom webpack configuration
-Detail page with sharable URL and back button
+<ul>
+<li>Code splitting using react lazy/async await for api</li>
+<li>Brotli/gzip compression</li>
+<li>Usage of react router</li>
+<li>Usage of material ui</li>
+<li>Sorting</li>
+<li>Use of Grid/Flex</li>
+<li>Custom webpack configuration</li>
+<li>Detail page with sharable URL and back button</li>
+  </ul>
 
