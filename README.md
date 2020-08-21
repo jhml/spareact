@@ -13,3 +13,4 @@ v1 - This is a sample application for demo purpose.
 <li>Detail page with sharable URL and back button</li>
   </ul>
 
+Link to demo: https://covid19tracker-ff695.web.app/
