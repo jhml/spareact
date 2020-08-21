@@ -43,7 +43,7 @@ class Home extends React.Component{
     }
 }
 
-//Primary app component that includes Error boundary and suspense
+//Primary app component that includes Error boundary and suspense for lazy loaded components
 const App = () => {
     return (
         <main>
